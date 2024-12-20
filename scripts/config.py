@@ -10,7 +10,7 @@ import mlflow
 ROOT_DIR = Path(__file__).parent.parent.absolute()
 LOGS_DIR = Path(ROOT_DIR, "logs")
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
-EFS_DIR = Path(f"~/ray_results/e2e-machine-learning")
+EFS_DIR = Path(f"/Users/monkey/ray_results/e2e-machine-learning")
 try:
     Path(EFS_DIR).mkdir(parents=True, exist_ok=True)
 except OSError:
