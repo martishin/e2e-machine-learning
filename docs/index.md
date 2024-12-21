@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+## Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+- [scripts](scripts/data.md): documentation.
 
-## Commands
+## Lessons
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Learn how to combine machine learning with software engineering to design, develop, deploy and iterate on production ML applications.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- **Lessons**: [https://madewithml.com/](https://madewithml.com/#course)
+- **Code**: [GokuMohandas/Made-With-ML](https://github.com/GokuMohandas/Made-With-ML)

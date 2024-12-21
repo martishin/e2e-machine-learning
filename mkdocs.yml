@@ -1,1 +1,19 @@
-site_name: My Docs
+site_name: Made With ML
+site_url: https://madewithml.com/
+repo_url: https://github.com/martishin/e2e-machine-learning
+nav:
+    - Home: index.md
+    - scripts:
+          - data: scripts/data.md
+          - models: scripts/models.md
+          - train: scripts/train.md
+          - tune: scripts/tune.md
+          - evaluate: scripts/evaluate.md
+          - predict: scripts/predict.md
+          - serve: scripts/serve.md
+          - utils: scripts/utils.md
+theme: readthedocs
+plugins:
+    - mkdocstrings
+watch:
+    - .  # reload docs for any file changes

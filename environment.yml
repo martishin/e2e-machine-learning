@@ -444,7 +444,9 @@ dependencies:
   - zstandard=0.23.0
   - zstd=1.5.6
   - pip:
+      - griffe==1.5.1
       - jupyterlab==4.3.3
+      - mkdocstrings-python==1.12.2
       - numpyencoder==0.3.0
       - pandocfilters==1.5.1
       - python-json-logger==3.2.0
