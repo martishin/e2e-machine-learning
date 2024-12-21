@@ -14,3 +14,7 @@ python madewithml/train.py \
     --num-epochs 10 \
     --batch-size 256 \
     --results-fp results/training_results.json
+
+python3 -m mkdocs new .
+python3 -m mkdocs build
+python3 -m mkdocs serve
